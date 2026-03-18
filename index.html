@@ -1,17 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
+
+    <!-- css link -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- tailwind CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awesome CDN -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
 
-    <p>hello future devloper</p>
+<body class="container">
 
-    <h2>hello world</h2>
-    
+    <header class="bg-[#FFFBF0] h-[650px]">
+        <!-- nav bar -->
+        <nav class="flex justify-between mt-[40px] items-center mx-4">
+            <img src="assets/icons/logo.png" alt="" class="w-[291px] h-[40px]">
+            <ul class="flex gap-[50px] font-medium text-[#3C3C3C] items-center">
+                <li>Home</li>
+                <li>Product</li>
+                <li>About us</li>
+                <li>Contact us</li>
+            </ul>
+        </nav>
+
+        <!-- banner design -->
+
+        <div class="flex items-center gap-[160px] mt-6 pt-5">
+            <div>
+                <h2 class="text-[#FABE4C] text-[80px] mx-4 leading-[50px] mt-[90px]">Be the Penguins
+                </h2>
+                <h2 class="text-[#363958] text-[80px] mx-4">of Winter</h2>
+                <p class="mx-4 text-[#3E3E3E] w-[357px]">Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.</p>
+                <button
+                    class="mx-4 bg-[#85A019] w-[170px] h-[60px] rounded-[10px] inline-block text-white font-medium mt-4">
+                    <i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+            </div>
+            <img src="assets/images/model.png" alt="" class="">
+        </div>
+    </header>
+
+    <main>
+
+    </main>
 </body>
+
 </html>

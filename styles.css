@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* * pura website take pujai */
+
 * {
     font-family: "Roboto", sans-serif;
 }
+
+/* sudhu ai tag gula te ai font ta kaj korbe */
 
 h1,
 h2,
 h3 {
     font-family: "Bebas Neue", sans-serif;
+}
+
+.container{
+    max-width: 1250px;
+    margin: auto
 }
